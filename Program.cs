@@ -799,11 +799,45 @@ namespace set_6array
                     }
                 }
             }
+        }
 
 
-            
 
+        public static int[] pfssq()
+        {
+            int[] a = new int[] { 4, 9, 16, 17, 25, 26, 36, 88, 81 };
+            int[] b = new int[countsq(a)];
+            int d = 0;
+            for (int j = 0; j <= l; j++)
+            {
+                int c = j * j;
+                for (int i = 0; i < a.Length; i++)
+                {
+                    if (c == a[i])
+                    {
 
+                    }
+                }
+            }
+        }
+
+        public static int[] pfsssq()
+        {
+            int[] a = new int[] { 4, 9, 16, 17, 25, 26, 36, 88, 81 };
+            int[] b = new int[countsq(a)];
+            int d = 0;
+            for (int j = 0; j <= l; j++)
+            {
+                int c = j * j;
+                for (int i = 0; i < a.Length; i++)
+                {
+                    if (c == a[i])
+                    {
+
+                    }
+                }
+            }
+        }
 
 
 
